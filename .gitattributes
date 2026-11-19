@@ -1,0 +1,23 @@
+# 统一换行符：仓库里永远存 LF，检出时按平台自动转换
+* text=auto
+
+# 明确文本文件的类型
+*.py   text
+*.md   text
+*.json text
+*.yml  text
+*.yaml text
+*.ps1  text
+*.sh   text
+
+# 明确二进制文件，别让 Git 去猜
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.7z   binary
+*.exe  binary
+*.dll  binary

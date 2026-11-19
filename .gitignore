@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- Windows / 系统 ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- 编辑器临时文件 ----
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# ---- 密钥与环境变量（绝对不能提交）----
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets/
+config.local.*
+
+# ---- 构建产物与日志 ----
+build/
+dist/
+out/
+*.log
+*.exe
+*.dll
