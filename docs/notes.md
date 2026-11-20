@@ -28,6 +28,7 @@
 - `git status -sb`：一行看清分支和改动（别名 `git st`）。
 - `git log --oneline`: 查看历史
 - `git diff`: 查看改动具体内容
+- `git switch -c feat/xxx`: 创建并跳转新分支 
 
 
 ## 三、踩坑记录
