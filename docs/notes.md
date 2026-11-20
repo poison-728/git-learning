@@ -26,7 +26,7 @@
 
 - `git init -b main`：建仓库并直接命名主分支为 main。
 - `git status -sb`：一行看清分支和改动（别名 `git st`）。
-- `git log --onlie`: 查看历史
+- `git log --oneline`: 查看历史
 - `git diff`: 查看改动具体内容
 
 
